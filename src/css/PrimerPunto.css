@@ -1,0 +1,15 @@
+.primerpunto{
+    margin: 50%;
+    width: 150%;
+    background-color: rgb(168, 206, 232); 
+    padding: 5%;
+    border-radius: 30px;
+}
+.primerpunto input{
+    margin: 1%;
+}
+.primerpunto h2{
+    text-align: center;
+    padding: 2%;
+    padding-top: 0;
+}

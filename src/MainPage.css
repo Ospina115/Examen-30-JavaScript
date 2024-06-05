@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html, body{
+  height: 100%;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url('/img/depositphotos_107290864-stock-illustration-sewing-accessories-seamless-retro-vector.jpg');
+  background-repeat: repeat;
+}
+.Container {
+  height: 100vh;
+  display: flex;
+  position: relative;
+  background-color: white;
+}
+.Container::after{
+  z-index: 0;
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.section_left{
+  z-index: 0;
+  width: 20%;
+  height:100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  max-height: 100%;
+  z-index: 2;
+  background-color: rgb(168, 206, 232);
+}
+.section_left div{
+  background-color: white;
+  border-radius: 40px;
+  padding: 5%;
+  margin: 5%;
+  height: 500px;
+  font-size: 100%;
+  text-align: center;
+}
